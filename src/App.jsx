@@ -4,7 +4,7 @@ import './App.css'
 function App() {
 
   return (
-   <h2>Helo</h2>
+   <h2>Helo co tam :</h2>
   )
 }
 
