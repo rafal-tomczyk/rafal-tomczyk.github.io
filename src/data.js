@@ -12,13 +12,19 @@ const leftGrid = [
       images: [
         {
           index: 1,
-          src: "/PS.png",
-          alt: "Politechnika Śląska",
+          src: "/Merito.png",
+          alt: "WSB Merito",
         },
         {
           index: 2,
-          src: "/Merito.png",
-          alt: "WSB Merito"
+          src: "/PS.png",
+          alt: "Politechnika Śląska",
+        },
+
+        {
+          index: 3,
+          src: "/Harvard.png",
+          alt: "Harvard",
         },
       ],
     },
