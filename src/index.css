@@ -1,108 +1,13 @@
-/* Przykładowe style */
 body {
-  font-family: serif;
-  background-color: #000000;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
+  background-color: #121212;
+  font-family: 'IBM Plex Serif', serif;
+  color: #C4A484
 }
 
-h1 {
-  color: #f4b860;
-  text-align: center;
-  margin: 20px 0;
+h1, h2 {
+  font-family: 'Playfair Display', serif;
 }
 
-h2 {
-  color: #f0f0f0;
-  text-align: center;
-  margin-top: 20px;
-}
-
-/* Kontener główny */
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; /* Wyśrodkowanie w pionie */
-  width: 80%; /* Ustawienie szerokości kontenera */
-  margin: auto; /* Wyśrodkowanie kontenera na stronie */
-  padding: 20px;
-}
-
-/* Styl dla lewej kolumny */
-.left {
-  flex: 1;
-  padding: 10px;
-  margin-right: 10px;
-}
-
-/* Styl dla prawej kolumny */
-.right {
-  flex: 1;
-  padding: 10px;
-  margin-left: 10px;
-}
-
-/* Styl dla elementu pre */
-pre {
-  font-family: monospace;
-  font-size: 1.2em;
-  color: #f0f0f0;
-  text-align: center;
-  justify-content: center;
-  border-radius: 1px;
-  border-width: 1px;
-  border-color: #f0f0f0;
-  border-style: solid;
-  overflow-x: auto;
-  width: 400px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column; /* Zmiana układu na kolumnowy dla mniejszych ekranów */
-  }
-
-  .left,
-  .right {
-    margin: 0; /* Usunięcie marginesów */
-    padding: 10px 0; /* Dodanie odstępu między elementami */
-  }
-}
-
-@media (min-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  pre {
-    font-size: 1.2em;
-    max-width: 70%;
-  }
-}
-
-@media (min-width: 1024px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2.5rem;
-  }
-
-  pre {
-    font-size: 1.4em;
-    max-width: 60%;
-  }
+code {
+  font-family: 'JetBrains Mono', monospace;
 }

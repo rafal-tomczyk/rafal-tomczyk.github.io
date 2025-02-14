@@ -1,0 +1,49 @@
+.left {
+  flex: 1;
+
+}
+
+.right {
+  flex: 1;
+
+}
+
+.grid {
+  margin-top: 12vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 4vw;
+}
+
+.grid-box img {
+  filter: saturate(7);
+  filter: grayscale(1);
+  padding: 4px;
+  max-width: 16%;
+  transition: filter 0.2s ease;
+}
+
+.grid-box img:hover {
+  filter: none;
+}
+
+.grid-box .images {
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .right {
+    margin-top: 10vh;
+  }
+}
