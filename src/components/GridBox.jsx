@@ -14,10 +14,13 @@ const GridBox = ({ title, content }) => {
   };
 
   return (
-    <div className="grid-box">
-      <h3>{title}</h3>
-      {renderContent()}
-    </div>
+
+      <div className="grid-box">
+        <h3>{title}</h3>
+        {renderContent()}
+      </div>
+
+
   );
 };
 

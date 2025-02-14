@@ -69,8 +69,12 @@ const rightGrid = [
   {
     id: 2,
     title: "O mnie",
-    content: "To jest drugi GridBox",
+    content: 'Od zawsze byłem tym "komputerowym" w rodzinie, podłącz, przełącz, napraw...\nI choć w młodości bardzo tego nie chciałem, ostatecznie zacząłem wsiąkać w to coraz bardziej.\nOd paru lat zacząłem aktywnie kodować, czego owocem są przedstawione ponizej projekty\n\nNaukę rozpocząłem od kursu CS50, prowadzonego przez Davida J. Malana, a później juz poszło! \nObecnie studiuję informatykę drugiego stopnia na uniwersytecie Merito w Chorzowie. ',
   },
+  {
+    title:"Chęć rozwoju",
+    content: "Największą pasją jest dla mnie tworzenie full-stackowych aplikacji webowych i w tej dziedzinie chciałbym się rozwijać. \nPodoba mi się mozliwość tworzenia modeli i logiki bazy danych oraz jednocześnie projektowanie i dbanie o UI"
+  }
 ];
 
 const data = { leftGrid, rightGrid };

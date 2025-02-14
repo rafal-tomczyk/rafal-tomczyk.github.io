@@ -1,3 +1,12 @@
+body {
+  font-family: 'IBM Plex Serif', serif; /* Ustawienie domyślnej czcionki dla całego dokumentu */
+}
+
+.font{
+  text-align: justify;
+  font-family: 'IBM Plex Serif', serif;
+}
+
 .left {
   flex: 1;
 }
@@ -14,19 +23,22 @@
 }
 
 .grid-box img {
-  filter: saturate(7);
   filter: grayscale(1);
+  background-color: rgba(73, 73, 73, 0);
   padding: 4px;
   max-width: 16%;
-  transition: filter 0.2s ease;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.645); 
+  transition: filter 0.2s, box-shadow 0.6s ease;
 }
 
 .left .grid-box img{
   max-width:50%;
+  padding: 44px;
 }
 
 .grid-box img:hover {
   filter: none;
+  box-shadow: 4px 4px 28px rgba(80, 80, 80, 0.28); 
 }
 
 .grid-box .images {
@@ -40,6 +52,8 @@
 .left .grid-box .images{
   flex-direction: column;
   align-items:start;
+  width: 100%;
+  gap: 12px;
 }
 
 @media (max-width: 768px) {
