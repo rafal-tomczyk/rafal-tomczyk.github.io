@@ -1,12 +1,14 @@
 .container {
-    margin: auto;
-    width: 92%;
-    max-width: 1200px;
+  max-width: 1200px;
+  justify-content: center;
+  padding: 0 40px;
 }
 
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        padding: 8px;
-    }
+  .container {
+    flex-direction: column;
+    padding: 8px 20px;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -1,12 +1,7 @@
 const leftGrid = [
   {
     id: 1,
-    title: "Hello World",
-    content: "Jestem Rafał",
-  },
-  {
-    id: 2,
-    title: "Edukacja",
+    title: "",
     content: {
       type: "images",
       images: [
@@ -20,7 +15,6 @@ const leftGrid = [
           src: "/PS.png",
           alt: "Politechnika Śląska",
         },
-
         {
           index: 3,
           src: "/Harvard.png",
@@ -69,14 +63,42 @@ const rightGrid = [
   {
     id: 2,
     title: "O mnie",
-    content: 'Od zawsze byłem tym "komputerowym" w rodzinie, podłącz, przełącz, napraw...\nI choć w młodości bardzo tego nie chciałem, ostatecznie zacząłem wsiąkać w to coraz bardziej.\nOd paru lat zacząłem aktywnie kodować, czego owocem są przedstawione ponizej projekty\n\nNaukę rozpocząłem od kursu CS50, prowadzonego przez Davida J. Malana, a później juz poszło! \nObecnie studiuję informatykę drugiego stopnia na uniwersytecie Merito w Chorzowie. ',
+    content:
+      "Jako korepetytor z 5-letnim stażem rozumiem wagę wykluczenia wynikającego z braku dostępu do wysokiego poziomu edukacji. Moim marzeniem jest stworzenie platformy e-learningowej, dostępnej dla wszystkich uczniów w Polsce, w celu wyrównania szans rekrutacji do szkół i uczelni wyższych niezależnie od sytuacji materialnej dziecka.",
   },
   {
-    title:"Chęć rozwoju",
-    content: "Największą pasją jest dla mnie tworzenie full-stackowych aplikacji webowych i w tej dziedzinie chciałbym się rozwijać. \nPodoba mi się mozliwość tworzenia modeli i logiki bazy danych oraz jednocześnie projektowanie i dbanie o UI"
-  }
+    title: "Chęć rozwoju",
+    content:
+      "W kodowaniu najbardziej interesuje mnie tworzenie full-stackowych aplikacji webowych. Lubię mieć wgląd w tworzenie modeli i logiki bazy danych oraz projektowanie i pisanie UI. Obecnie studiuję informatykę drugiego stopnia na uniwersytecie Merito w Chorzowie.",
+  },
 ];
 
-const data = { leftGrid, rightGrid };
+const portfolio = [
+  {
+    id: 1,
+    title: "Squash 2",
+    overview:
+      "Aplikacja webowa wykonana w Django pozwalająca na organizację turnieju squash. Aplikacja pozwala na dodawanie i usuwanie graczy, wybor rodzaju turnieju, generowanie meczów, liczenie bilansu gier i punktów, tworzenie drabinek turniejowych i więcej.",
+    link: "https://github.com/rafal-tomczyk/squash_2",
+    image: "/portfolio/squash2.png"
+  },
+  {
+    id: 2,
+    title: "Backroads",
+    overview: "Prosta, statyczna aplikacja webowa, przedstawiająca firmę organizującą wycieczki korzystająca z Reacta.",
+    link: "https://github.com/rafal-tomczyk/backroads-app",
+    image: "#",
+  },
+  {
+    id: 3,
+    title: "Knowli",
+    overview:
+      "Aplikacja webowa, stworzona w Django, z możliwością wykonywania prostych testów matematycznych.",
+    link: "https://github.com/rafal-tomczyk/Knowli",
+    image: "#",
+  },
+];
+
+const data = { leftGrid, rightGrid, portfolio };
 
 export default data;

@@ -1,0 +1,26 @@
+.ft-a {
+  fill: aliceblue;
+  color: aliceblue;
+}
+
+.ft-a:hover{
+    text-decoration: underline;
+}
+
+footer h1 {
+    margin: 4vh;
+}
+
+@media (max-width: 760px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .ft-a{
+    margin: 4px;
+    text-decoration: none;
+  }
+}

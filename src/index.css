@@ -1,14 +1,33 @@
 body {
   background-color: #121212;
   font-family: 'IBM Plex Serif', serif;
-  color: #C4A484
+  font-size: 16px;
+  color: #C4A484;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-h1, h2 {
-  font-family: 'Playfair Display', serif;
-  
+h1, h2{
+  font-family: 'Bungee Hairline', 'Russo One', monospace,serif;
+  font-size: 3rem;
+  letter-spacing: 4px;
+}
+
+h3{
+  font-family: 'Bungee Hairline','Russo One', monospace, serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
 
 code {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Bungee Hairline','JetBrains Mono', monospace;
+}
+
+@media (max-width: 768px) {
+  h1, h2, h3 {
+    text-align: center;
+    font-size: 10vw;
+    overflow: hidden;
+  }
 }

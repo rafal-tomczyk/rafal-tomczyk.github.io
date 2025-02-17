@@ -4,23 +4,21 @@ const GridBox = ({ title, content }) => {
       return <p>{content}</p>;
     } else if (content.type === "images") {
       return (
-      <div className="images">
-        {content.images.map((image, index) =>(
+        <div className="images">
+          {content.images.map((image, index) => (
             <img key={index} src={image.src} alt={image.alt} />
-        ))}
-      </div>);
-    } 
+          ))}
+        </div>
+      );
+    }
     return null;
   };
 
   return (
-
-      <div className="grid-box">
-        <h3>{title}</h3>
-        {renderContent()}
-      </div>
-
-
+    <div className="grid-box">
+      {title && <h3>{title}</h3>}
+      {renderContent()}
+    </div>
   );
 };
 
