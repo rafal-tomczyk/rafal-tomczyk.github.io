@@ -1,4 +1,3 @@
-import './HelloWorld.css'
 import { useState, useEffect } from "react";
 
 function HelloWorld() {

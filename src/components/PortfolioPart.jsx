@@ -10,7 +10,7 @@ const PortfolioPart = ({title, overview, link, image}) => {
       <p>
         <a href={link}>{link}</a>
       </p>
-      <img src={image} alt={title} />
+      <img src={image} alt={title} loading="lazy"/>
     </div>
   );
 }

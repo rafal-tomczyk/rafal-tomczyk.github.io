@@ -2,7 +2,14 @@ import "./Grid.css";
 import data from "../data";
 import GridBox from "./GridBox";
 import HelloWorld from "./HelloWorld";
-import { ArrowBigDown, ArrowBigDownDash, ArrowDown, ArrowDown01, ChevronDown, MoveDown } from "lucide-react";
+import {
+  ArrowBigDown,
+  ArrowBigDownDash,
+  ArrowDown,
+  ArrowDown01,
+  ChevronDown,
+  MoveDown,
+} from "lucide-react";
 
 const Grid = () => {
   return (
@@ -15,8 +22,9 @@ const Grid = () => {
           <GridBox key={item.id} title={item.title} content={item.content} />
         ))}
         <div className="arrows">
+          <h1>Portfolio </h1>
           <h1>
-            Portfolio <MoveDown />
+            <MoveDown />
             <MoveDown />
             <MoveDown />
           </h1>

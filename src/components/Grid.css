@@ -32,8 +32,8 @@ body {
 }
 
 .left .grid-box img {
-  max-width: 50%;
-  padding: 32px 80px 32px 80px;
+  max-width: 80%;
+  padding: 32px 80px;
 }
 
 .grid-box img:hover {
@@ -51,11 +51,17 @@ body {
 
 .left .grid-box .images {
   flex-direction: column;
-  align-items: start;
+  align-items: center;
+
   width: 100%;
   gap: 12px;
 }
 
+.arrows{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 @media (max-width: 768px) {
   .grid {
@@ -73,6 +79,16 @@ body {
     padding: 6vh 18vw;
     width: 100%;
   }
+  
+  .arrows{
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .arrows h1{
+    margin: 2vh 0vw 0vh 0vw;
+  }
+  
 }
 
 @media (min-width: 768px) {

@@ -1,14 +1,20 @@
-import "./App.css";
+import React, { Suspense, lazy } from "react";
 import Grid from "./components/Grid";
-import Portfolio from "./Portfolio";
-import Footer from "./components/Footer";
+import data from "./data";
+
+const Portfolio = lazy(() => import("./Portfolio"));
+const Footer = lazy(() => import("./components/Footer"));
 
 function App() {
   return (
     <div className="container">
       <Grid />
-      <Portfolio />
-      <Footer />
+      <Suspense fallback={<div>Loading Portfolio...</div>}>
+        <Portfolio />
+      </Suspense>
+      <Suspense fallback={<div>Loading Footer...</div>}>
+        <Footer />
+      </Suspense>
     </div>
   );
 }

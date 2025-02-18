@@ -7,17 +7,17 @@ const leftGrid = [
       images: [
         {
           index: 1,
-          src: "/Merito.png",
+          src: "/Merito.webp",
           alt: "WSB Merito",
         },
         {
           index: 2,
-          src: "/PS.png",
+          src: "/PS.webp",
           alt: "Politechnika Śląska",
         },
         {
           index: 3,
-          src: "/Harvard.png",
+          src: "/Harvard.webp",
           alt: "Harvard",
         },
       ],
@@ -78,16 +78,17 @@ const portfolio = [
     id: 1,
     title: "Squash 2",
     overview:
-      "Aplikacja webowa wykonana w Django pozwalająca na organizację turnieju squash. Aplikacja pozwala na dodawanie i usuwanie graczy, wybor rodzaju turnieju, generowanie meczów, liczenie bilansu gier i punktów, tworzenie drabinek turniejowych i więcej.",
+      "Aplikacja webowa wykonana w Django pozwalająca na organizację turniejów squash. Aplikacja pozwala na dodawanie i usuwanie graczy, wybór rodzaju turnieju, generowanie meczów, liczenie bilansu gier i punktów czy automatyczne tworzenie drabinek turniejowych",
     link: "https://github.com/rafal-tomczyk/squash_2",
-    image: "/portfolio/squash2.png"
+    image: "/portfolio/squash2.png",
   },
   {
     id: 2,
     title: "Backroads",
-    overview: "Prosta, statyczna aplikacja webowa, przedstawiająca firmę organizującą wycieczki korzystająca z Reacta.",
+    overview:
+      "Prosta, statyczna aplikacja webowa, przedstawiająca firmę organizującą wycieczki korzystająca z Reacta.",
     link: "https://github.com/rafal-tomczyk/backroads-app",
-    image: "#",
+    image: "/portfolio/backroads.jpg",
   },
   {
     id: 3,
@@ -95,7 +96,7 @@ const portfolio = [
     overview:
       "Aplikacja webowa, stworzona w Django, z możliwością wykonywania prostych testów matematycznych.",
     link: "https://github.com/rafal-tomczyk/Knowli",
-    image: "#",
+    image: "/portfolio/knowli.jpeg",
   },
 ];
 

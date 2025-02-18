@@ -8,7 +8,7 @@ const Footer = () => {
 
       <a
         className="ft-a"
-        href="https://instagram.com"
+        href="https://github.com/rafal-tomczyk"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -16,7 +16,7 @@ const Footer = () => {
       </a>
       <a
         className="ft-a"
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/rafał-tomczyk-b79a282a5/"
         target="_blank"
         rel="noopener noreferrer"
       >
