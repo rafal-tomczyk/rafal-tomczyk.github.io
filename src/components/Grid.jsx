@@ -19,7 +19,7 @@ const Grid = () => {
           <HelloWorld />
         </div>
         {data.leftGrid.map((item) => (
-          <GridBox key={item.id} title={item.title} content={item.content} />
+          <GridBox key={`left-${item.id}`} title={item.title} content={item.content} />
         ))}
         <div className="arrows">
           <h1>Portfolio </h1>
@@ -32,7 +32,7 @@ const Grid = () => {
       </div>
       <div className="right">
         {data.rightGrid.map((item) => (
-          <GridBox key={item.id} title={item.title} content={item.content} />
+          <GridBox key={`right-${item.id}`} title={item.title} content={item.content} />
         ))}
       </div>
     </section>

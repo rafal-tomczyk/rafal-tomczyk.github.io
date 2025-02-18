@@ -5,8 +5,8 @@ const GridBox = ({ title, content }) => {
     } else if (content.type === "images") {
       return (
         <div className="images">
-          {content.images.map((image, index) => (
-            <img key={index} src={image.src} alt={image.alt} />
+          {content.images.map((image) => (
+            <img key={image.index} src={image.src} alt={image.alt} />
           ))}
         </div>
       );
