@@ -64,12 +64,12 @@ const rightGrid = [
     id: 2,
     title: "O mnie",
     content:
-      "Jako korepetytor z 5-letnim stażem rozumiem wagę wykluczenia wynikającego z braku dostępu do wysokiego poziomu edukacji. Moim marzeniem jest stworzenie platformy e-learningowej, dostępnej dla wszystkich uczniów w Polsce, w celu wyrównania szans rekrutacji do szkół i uczelni wyższych niezależnie od sytuacji materialnej dziecka.",
+      "Przez mój 5-letni staż jako korepetytor rozumiem wagę wykluczenia wynikającego z braku dostępu do odpowiedniej edukacji w Polsce. Moim marzeniem jest stworzenie platformy e-learningowej, dostępnej dla wszystkich, w celu wyrównania szans rekrutacji do szkół i uczelni wyższych niezależnie od sytuacji materialnej dziecka.",
   },
   {
     title: "Chęć rozwoju",
     content:
-      "W kodowaniu najbardziej interesuje mnie tworzenie full-stackowych aplikacji webowych. Lubię mieć wgląd w tworzenie modeli i logiki bazy danych oraz projektowanie i pisanie UI. Obecnie studiuję informatykę drugiego stopnia na uniwersytecie Merito w Chorzowie.",
+      "Najbardziej interesuje mnie tworzenie full-stackowych aplikacji webowych. Lubię mieć wgląd w tworzenie modeli i logiki bazy danych oraz projektowanie i pisanie UI. Swoje prywatne projekty tworzę głównie w Django + React. Obecnie studiuję informatykę drugiego stopnia na uniwersytecie Merito w Chorzowie.",
   },
 ];
 
@@ -78,7 +78,7 @@ const portfolio = [
     id: 1,
     title: "Squash 2",
     overview:
-      "Aplikacja webowa wykonana w Django pozwalająca na organizację turniejów squash. Aplikacja pozwala na dodawanie i usuwanie graczy, wybór rodzaju turnieju, generowanie meczów, liczenie bilansu gier i punktów czy automatyczne tworzenie drabinek turniejowych",
+      "Aplikacja webowa korzystająca z Django i Django Tempaltes, pozwalająca na organizację turniejów squash. Pozwala na dodawanie i usuwanie graczy, wybór rodzaju turnieju, generowanie meczów, liczenie bilansu gier i punktów czy automatyczne tworzenie drabinek turniejowych. Wykorzystana w prawdziwym turnieju squash. ",
     link: "https://github.com/rafal-tomczyk/squash_2",
     image: "/portfolio/squash2.png",
   },
@@ -86,7 +86,7 @@ const portfolio = [
     id: 2,
     title: "Backroads",
     overview:
-      "Prosta, statyczna aplikacja webowa, przedstawiająca firmę organizującą wycieczki korzystająca z Reacta.",
+      "Prosta, statyczna aplikacja webowa, przedstawiająca firmę organizującą wycieczki korzystająca z Reacta. W jej tworzeniu użyłem JS, HTML i CSS.",
     link: "https://github.com/rafal-tomczyk/backroads-app",
     image: "/portfolio/backroads.jpg",
   },
@@ -94,7 +94,7 @@ const portfolio = [
     id: 3,
     title: "Knowli",
     overview:
-      "Aplikacja webowa, stworzona w Django, z możliwością wykonywania prostych testów matematycznych.",
+      "Aplikacja webowa, stworzona w Django + Django templates oraz SQLite3, z możliwością wykonywania prostych testów matematycznych dla uczniów. Aplikacja obsługuje logowanie i rejestrację, zapisuje w bazie danych wyniki zalogowanych kont. Powstała jako projekt końcowy kursu Harvard CS50 web.",
     link: "https://github.com/rafal-tomczyk/Knowli",
     image: "/portfolio/knowli.jpeg",
   },
